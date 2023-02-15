@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>    
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family:'Poppins', sans-serif;
+        }
+        .content{
+            display: flex;
+            width: 100vw;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;      
+                
+        }
+        .welcome{            
+            width: 450px;
+            height: 450px;            
+            margin-right: 20px;   
+            padding: 20px; 
+            display: flex;
+            flex-direction: column;
+            justify-content: center;                    
+        }
+        .img{            
+            width: 450px;
+        }
+        .text{
+            margin-top: 20px;
+        }
+        .title{
+            font-size: 70px;
+            font-weight: bold;
+            color: #000000;
+        }
+        .subtitle{
+            color:#ff0000
+        }
+        p{
+         color: #323a49;   
+        }
+    </style> 
+</head>
+<body>
+   <main class="content">
+    <div class="welcome">       
+        <h1 class="title">Bem Vindo!</h1>
+        <h2 class="subtitle">Curso Senai de Desenvolvimento de Sistemas</h2>
+        <p class="text">Olá ! Desejamos a todos boas vindas ao SENAI, estamos no início de uma jornada que será muito legal, ao final da jornada, vocês se tornarão desenvolvedores de sistemas.</p>        
+    </div>
+        <img class="img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/SENAI_S%C3%A3o_Paulo_logo.png/1280px-SENAI_S%C3%A3o_Paulo_logo.png"/>
+
+   </main>
+</body>
+</html>
